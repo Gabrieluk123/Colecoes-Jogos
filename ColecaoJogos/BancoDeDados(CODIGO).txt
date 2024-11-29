@@ -1,0 +1,13 @@
+CREATE DATABASE agenda;
+
+CREATE TABLE jogos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    genero VARCHAR(255),
+    plataforma VARCHAR(255),
+    lancamento int,
+    desenvolvedora VARCHAR(255),
+    avaliacao DECIMAL(3, 1),
+    localImagem VARCHAR(255),
+ possuir BOOLEAN
+);
